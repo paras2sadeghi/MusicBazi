@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ableton": {
+      "command": "uv",
+      "args": ["run", "--locked", "--quiet", "ableton-live-mcp"],
+      "env": {
+        "ABLETON_TOOLSETS": "session,tracks,clips,devices,browser,arrangement,generators,analysis"
+      }
+    }
+  }
+}

@@ -37,6 +37,22 @@ there, add `--replace`; the old one is backed up next to it as `__init__.py.*.ba
 6. Close Settings; dismiss any open Live dialog.
 7. Run `uv run --locked scripts/doctor.py` — expect "Live bridge reachable".
 
+## Agent configs
+
+All three launch the same locked server with `uv run --locked ableton-live-mcp`
+and the default toolsets below. The server name is `ableton` in each.
+
+| Agent | File | First-use step |
+|---|---|---|
+| Claude Code | `.mcp.json` | Approve the `ableton` project server when prompted |
+| Cursor | `.cursor/mcp.json` | Settings → MCP → enable `ableton` |
+| Codex CLI / app | `.codex/config.toml` | Trust the project when Codex asks (untrusted projects ignore it) |
+
+No global Ableton MCP config should exist (`~/.claude.json`, Claude Desktop,
+`~/.cursor/mcp.json`, `~/.codex/config.toml`) — doctor warns if one does. The
+old global `AbletonMCP` (ahujasid) entries were removed on 2026-11-01, and the
+old Remote Script was backed up as `AbletonMCP\__init__.py.*.bak`.
+
 ## Health check
 
 ```bash

@@ -1,0 +1,8 @@
+# Codex loads this only when the project is trusted (Codex asks on first open).
+[mcp_servers.ableton]
+command = "uv"
+args = ["run", "--locked", "--quiet", "ableton-live-mcp"]
+startup_timeout_sec = 60
+
+[mcp_servers.ableton.env]
+ABLETON_TOOLSETS = "session,tracks,clips,devices,browser,arrangement,generators,analysis"
