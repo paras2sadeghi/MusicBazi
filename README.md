@@ -23,8 +23,8 @@ Works with **Claude Code**, **Cursor** and **Codex**, all running locally on thi
 ## Quick start
 
 ```bash
-uv run scripts/setup.py
-uv run scripts/doctor.py
+uv run --locked scripts/setup.py --install-remote-script
+uv run --locked scripts/doctor.py
 ```
 
 Then in Live: Settings → Link, Tempo & MIDI → Control Surface → **AbletonMCP**,

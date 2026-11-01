@@ -1,0 +1,15 @@
+[project]
+name = "musicbazi"
+version = "0.1.0"
+description = "Personal Ableton Live production OS: agent rules, taste library, pinned MCP server"
+requires-python = ">=3.11"
+dependencies = [
+    # Pinned exactly. Bump only via scripts/lock.py after re-reading the code
+    # for data collection (decisions/0002, 0003).
+    "mcp-server-ableton-live==1.8.1",
+]
+
+[tool.uv]
+package = false
+# Written by scripts/lock.py: nothing newer than this enters the lock.
+exclude-newer = "2026-10-25T00:00:00Z"
