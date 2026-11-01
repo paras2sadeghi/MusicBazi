@@ -75,6 +75,21 @@ say so and log it under "Upgrade wants" in `music/production.md`.
 Default working style: Session-view loops (4–8 bars) first, then commit to
 Arrangement.
 
+## Skills
+
+Playbooks in `.agents/skills/<name>/SKILL.md`. When I name one (or a request
+matches its description), read that file and follow it. If your tool doesn't
+load skills automatically, open the file yourself.
+
+| Skill | Use for |
+|---|---|
+| `ideate` | Variant rounds on one axis → my reaction → proposed principle |
+| `brainstorm` | Talk an idea through; no Live writes until I say go |
+| `brain` | End-of-session retrospective; propose taste-log and journal updates |
+| `reference-study` | Turn a reference track into a proposed `reference-artists.md` entry |
+| `arrange` | Session loops → Arrangement song structure |
+| `mix-check` | Read-only mix health check; fixes only on approval |
+
 ## Memory and learning
 
 - **Never invent my taste.** Principles come from me or from ideation rounds I
