@@ -1,11 +1,20 @@
 # Reference artists and tracks
 
-Built up over time with the **reference-study** skill — one entry per track.
-Agents never add entries without my confirmation.
+Named by me in the taste interview (2026-11-01). Per-track breakdowns get added
+with the **reference-study** skill — agents never add entries without my
+confirmation.
 
-## How to add
+## Artists by lane *(interview)*
 
-Run `reference-study` with an artist + track. It proposes an entry; I confirm.
+| Lane | Artists |
+|---|---|
+| Techno | Oliver Huntemann, Kauffman, HNGT *(to confirm)*, Vakhtang, Sirch, Thomas Schumacher |
+| Darkwave | Pixelgrip, IVOXIGEN *(spelling to confirm)* |
+| Trip-hop / dark alt | Archive, Anathema, Blonde Redhead, Other Lives |
+| Darkwave–techno hybrid | <!-- fill --> |
+
+Names are recorded as I said them; agents shouldn't describe an artist's sound
+as fact without marking it *(unverified)*.
 
 ## Entry format
 

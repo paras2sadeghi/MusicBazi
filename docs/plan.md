@@ -36,22 +36,20 @@ against this PC on 2026-11-01. Decisions below come from that review + interview
 
 Each of D1–D4 and D6 gets an ADR in `decisions/`.
 
-## Taste seed (from interview — first draft, I confirm)
+## Taste seed (deep interview, 2026-11-01 — replaces first draft)
 
-- **Lanes:** `melodic-house-techno`, `persian-fusion`, `lofi-downtempo`, `pop-indie-electronic`.
-- **Harmony default:** minor modes (Aeolian / Dorian / Phrygian); major only on request.
-  Persian dastgah is a per-track choice in the fusion lane, not the default.
-- **Melody:** emotional, sparse, repetitive hooks — space, variation by repetition.
-- **Tempo:** set per lane in `genres.md`.
-- **Groove:** set per lane in `genres.md`.
-- **Palette:** Vital (leads, pads, bass) + Lite stock (Drum Rack, Simpler, effects).
-- **Hard avoids:** cheesy major-key melodies; robotic flat-127 / rigid MIDI.
-- **References:** none seeded; grown per track with `reference-study`.
-- **Workflow:** Session-view loops (4–8 bars) → commit to Arrangement.
-- **Taste-log categories:** Leads & hooks · Chords & pads · Bass · Drums & percussion.
-
-Still to fill (per-lane tempo/groove/structure, references, identity statement)
-stays as `<!-- fill -->` blocks.
+- **North star:** ethereal, dark electronic with 90s soul — emotional *and* danceable; layered but minimal.
+- **Feeling:** melancholic-but-hopeful + dark / hypnotic.
+- **Lanes:** `techno` (driving peak-time + hypnotic), `darkwave-techno`, `darkwave`, `triphop-dark-alt`.
+  Persian fusion, lo-fi and pop dropped.
+- **Scales:** Hirajoshi for hooks/arps; harmony per lane (static in techno, minor progressions in darkwave/trip-hop).
+- **Sounds:** cold FM/digital, M1-era romplers, acid mono bass; big reverbs/delays, 80s chorus/flanger, grit.
+- **Drums:** drum machines, gated 80s snares, slow dusty breaks.
+- **Density:** ≤ 3 focal parts + quiet textures.
+- **Hooks:** evolve via automation; tension notes.
+- **Vocals:** song first; vocal melodies + space only when asked.
+- **Pain points:** loops never become songs, boring melodies, cheap sounds.
+- **References:** see `music/reference-artists.md` (HNGT and IVOXIGEN to confirm).
 
 ## Target layout
 

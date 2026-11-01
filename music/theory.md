@@ -3,37 +3,48 @@
 Harmony and melody defaults. Agents read the **actual pitch classes** in Live
 clips before trusting anything here or a key name in a track title.
 
-## Default tonal world *(seed)*
+## Scales *(interview)*
 
-- Minor modes: **Aeolian, Dorian, Phrygian**.
+- **Hirajoshi for hooks and arps.** Five notes: 1 · 2 · ♭3 · 5 · ♭6.
+  - e.g. in A: A · B · C · E · F
+  - Its built-in ♭6 and missing 4th/7th give the dark, suspended color.
+- **Harmony under the hooks is set per lane** (below). Chords, bass and pads use
+  the matching minor-family mode so Hirajoshi notes sit inside it:
+  - Aeolian (natural minor) contains every Hirajoshi note.
+  - Phrygian also contains them except the 2 — use it only when the hook avoids
+    the 2 or the clash is wanted.
 - Major keys only when I ask.
-- Persian dastgah (Shur, Homayoun, Segah, …) is a per-track choice in the
-  `persian-fusion` lane, not the default. Quarter tones only where the instrument
-  can play them (Vital can retune; most Lite stock devices can't).
 
-## Preferred keys
+## Harmony per lane *(interview: "per lane")*
 
-<!-- fill: keys you gravitate to, or "any" -->
-
-## Mode by mood
-
-| Mood | Mode | Notes |
+| Lane | Default harmony | Notes |
 |---|---|---|
-| <!-- fill --> | | |
+| Techno | Static / drone; 1 chord or a root drone for long stretches | Movement comes from the hook and automation |
+| Darkwave–techno | Static or 2-chord vamp | <!-- fill --> |
+| Darkwave | Minor progressions (3–4 chords) | <!-- fill: favorite progressions --> |
+| Trip-hop / dark alt | Minor progressions, slower changes | <!-- fill --> |
+
+## Hooks *(interview)*
+
+- **Evolve through automation:** keep the notes simple and repeating; change them
+  over time with filter cutoff, FM amount, delay throws, reverb sends.
+- **Tension notes:** lean on ♭2 / ♭6 against the root; let them pull, resolve
+  sometimes, not always.
+- Sparse and repetitive; rests are part of the hook.
+
+<!-- fill: range, register, step vs leap -->
+
+## Vocal melodies *(interview)*
+
+I might sing. **Build the song first.** Only when I ask: write vocal melody
+options and clear arrangement space (verse/chorus gaps, frequency room).
+<!-- fill: my comfortable vocal range, once known -->
 
 ## Chord voicing habits
 
-<!-- fill: open vs close voicings, extensions (7ths/9ths/sus), inversions, register -->
-
-## Melody *(seed)*
-
-- Sparse, emotional, repetitive hooks.
-- Variation by repetition: change one thing per repeat (rhythm, last note, octave).
-- Leave space — rests are part of the hook.
-
-<!-- fill: range, step vs leap, where the hook sits against the chords -->
+<!-- fill: open vs close, extensions, register -->
 
 ## Avoid
 
-- Bright major-scale hooks (see `identity.md`).
-<!-- fill: e.g. tritones in leads, parallel fifths, chromatic runs -->
+- Bright major-scale hooks.
+<!-- fill -->

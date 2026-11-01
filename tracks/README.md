@@ -5,10 +5,10 @@ Copy `_template.md` to start one. Lanes match `music/genres.md`.
 
 | Lane | Folder |
 |---|---|
-| Melodic house / techno | `melodic-house-techno/` |
-| Electronic + Persian fusion | `persian-fusion/` |
-| Lo-fi / downtempo / chill | `lofi-downtempo/` |
-| Pop / indie electronic | `pop-indie-electronic/` |
+| Techno | `techno/` |
+| Darkwave–techno hybrid | `darkwave-techno/` |
+| Darkwave | `darkwave/` |
+| Trip-hop / dark alt | `triphop-dark-alt/` |
 
 Agents read the journal before writing notes and propose updates after a
 session; I confirm.

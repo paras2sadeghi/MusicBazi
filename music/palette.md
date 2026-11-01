@@ -13,21 +13,33 @@ already on a track — no inventing presets, no browsing disk for samples.
 
 <!-- fill: other plugins, packs, hardware, MIDI controllers -->
 
-## Default sources *(seed)*
+## Default sources
 
 Vital + Lite stock devices first.
+
+## Sound character *(interview)*
+
+Cold 90s, not warm analog:
+
+- **FM / cold digital** — glassy bells, DX7-style keys, Wavestation-like digital pads.
+- **M1-era romplers** — organ, piano, workstation strings and choirs.
+- **Acid / mono bass** — 303-style squelch, analog mono lines.
+- **Effects:** big dark reverbs + delays, 80s chorus / flanger, grit and saturation.
+- **Never leave a raw preset.** Shape every sound (filter, envelope, FX, automation)
+  — "sounds feel cheap" is a pain point.
 
 ## Go-to by role
 
 | Role | First choice | Alternatives | Notes |
 |---|---|---|---|
-| Lead / hook | Vital | <!-- fill --> | |
-| Pad | Vital | <!-- fill --> | |
-| Bass | Vital | <!-- fill --> | |
-| Drums | Drum Rack | <!-- fill: kits you like --> | |
-| One-shots / chops | Simpler | <!-- fill --> | |
-| Persian instruments | <!-- fill: samples? Vital patches? --> | | |
-| Effects | Lite stock | <!-- fill: go-to reverb, delay, saturation --> | |
+| Lead / hook (Hirajoshi) | Vital — FM / digital | <!-- fill --> | Evolve with automation |
+| Arp | Vital | <!-- fill --> | Hirajoshi notes |
+| Pad | Vital — cold digital / rompler-style | <!-- fill --> | Chorus, long reverb |
+| Bass | Vital — acid / mono | <!-- fill --> | Chorus for darkwave; grit for techno |
+| Drums (techno / darkwave) | Drum Rack — 909/808/Linn-style | <!-- fill: kits you like --> | Gated snare for darkwave |
+| Breaks (trip-hop) | Simpler / Drum Rack slices | <!-- fill: Splice break packs --> | Slow, dusty, swung |
+| Vocal space | — | | Only when I ask (see `theory.md`) |
+| Effects | Lite stock: Reverb, Delay, Chorus, Saturator… | <!-- fill --> | Check what Lite includes |
 
 ## Vital presets I like
 

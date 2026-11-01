@@ -2,11 +2,22 @@
 
 How I work in Live. Agents follow this when creating or arranging.
 
-## Workflow *(seed)*
+## Workflow
 
 1. Jam **4–8 bar loops in Session view**.
 2. Build a scene per section idea (≤ 8 scenes in Lite).
 3. Commit to **Arrangement** when the loops work together.
+
+## Arrangement density *(interview)*
+
+- **≤ 3 focal parts at once** (e.g. kick+bass, hook, pad). Everything else is a
+  quiet texture layer.
+- Loops must become songs: after a loop works, agents should offer `arrange`.
+
+## Vocals *(interview)*
+
+Build the song first. When I ask, write vocal melody options and clear space
+(arrangement gaps, frequency room around 1–4 kHz). Don't write lyrics.
 
 ## Live 12 Lite limits
 
@@ -18,7 +29,7 @@ How I work in Live. Agents follow this when creating or arranging.
 
 - **Track names:** <!-- fill: e.g. "DRM Kick", "BAS Sub", "LEAD Hook" -->
 - **Track colors:** <!-- fill: per role -->
-- **Clip lengths:** 4–8 bars by default *(seed)* <!-- fill: exceptions -->
+- **Clip lengths:** 4–8 bars by default <!-- fill: exceptions -->
 - **Drums:** <!-- fill: one Drum Rack, or separate tracks per drum? who layers? -->
 - **MIDI scope for agents:** <!-- fill: which tracks agents may write to freely -->
 - **Machines:** <!-- fill: do you keep reusable sound-design sets per lane? names? -->

@@ -27,29 +27,46 @@ actually gets learned.
 
 Status: `open`
 
-<!-- empty — filled via ideate / brain -->
+- [kept] Hooks and arps use Hirajoshi (1 2 ♭3 5 ♭6). — source: taste interview, 2026-11-01
+- [kept] Keep hook notes simple; evolve them through automation (filter, FM, delay throws). — source: taste interview, 2026-11-01
+- [kept] Use tension notes (♭2 / ♭6) that pull; don't always resolve. — source: taste interview, 2026-11-01
+- [rejected] Cheesy major-key melodies. — source: taste interview, 2026-11-01
 
 ## Chords & pads
 
 Status: `open`
 
-<!-- empty — filled via ideate / brain -->
+- [kept] Harmony is per lane: static/drone in techno, minor progressions in darkwave and trip-hop. — source: taste interview, 2026-11-01
+- [kept] Pads are cold digital / rompler-style, not warm analog. — source: taste interview, 2026-11-01
 
 ## Bass
 
 Status: `open`
 
-<!-- empty — filled via ideate / brain -->
+- [kept] Acid / mono bass is part of the palette. — source: taste interview, 2026-11-01
 
 ## Drums & percussion
 
 Status: `open`
 
-<!-- empty — filled via ideate / brain -->
+- [kept] Drum machines for techno and darkwave; gated 80s snares in darkwave; slow dusty breaks in trip-hop. — source: taste interview, 2026-11-01
+- [rejected] Flat 127 velocities and rigid grid timing. — source: taste interview, 2026-11-01
 
 ---
 
+## Arrangement & density
+
+Status: `open`
+
+- [kept] At most 3 focal parts at once; the rest are quiet textures. — source: taste interview, 2026-11-01
+
+## Sound design & FX
+
+Status: `open`
+
+- [kept] Big dark reverbs and delays, 80s chorus / flanger, grit and saturation. — source: taste interview, 2026-11-01
+- [rejected] Leaving factory presets unshaped. — source: taste interview, 2026-11-01
+
 ## Add a category
 
-Copy a section above. Candidates: arpeggios, FX & transitions, vocals,
-arrangement & energy, sound design.
+Copy a section above. Candidates: arpeggios, transitions, vocals.
