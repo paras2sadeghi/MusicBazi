@@ -112,8 +112,22 @@ bundled a Supabase dataset recorder and telemetry module, gated by consent.
 
 ## Findings
 
-Behaviour of individual tools in Live — filled during validation (plan step 7).
+Behaviour of individual tools in Live. First validation: 2026-11-01, Live 12.4.7
+Lite, bridge 1.8.1, empty throwaway set, from Claude Code.
 
 | Operation | Verdict | Notes |
 |---|---|---|
-| <!-- fill during validation --> | | |
+| `get_session_info` | safe | Read-only; reports `bridge_version` — use it to confirm the right script is loaded |
+| `get_session_snapshot` | safe | Read-only one-call overview; best first read of a session |
+| `get_track_info` | safe | Read-only; shows every clip slot — good for verifying writes/undos |
+| `get_clip_notes` | safe | Read-only; returned exactly the pitches, starts, durations and velocities written |
+| `batch_commands` (`create_clip` + `add_notes_to_clip` + `set_clip_name`) | safe, useful | All three ran in one round-trip as **one undo step** |
+| `add_notes_to_clip` | risky | **Replaces the whole clip's notes.** Only use on a new/empty clip; use `edit_notes` to patch |
+| `undo` | safe | One call reverted the entire batch (clip, notes, name); no target parameter — it undoes Live's top history entry, so read state first |
+| `duplicate_to_arrangement` | risky (per server docs) | Overwrites whatever overlaps the destination range — not yet tested |
+| `delete_track` / `delete_arrangement_clip` | risky (per server docs) | Shift later indices — re-read state after use; not yet tested |
+| Transport tools | caution (per server docs) | Report the *pre*-command state; confirm with `get_session_info` |
+| Any command timing out | known cause | A Live modal dialog (e.g. trial nag) freezes the Remote Script — dismiss it, then retry |
+
+Still to validate: Cursor and Codex connecting to the same server; device
+loading (Vital, Drum Rack); `edit_notes`; arrangement tools.
