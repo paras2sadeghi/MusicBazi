@@ -1,0 +1,31 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Skill links are recreated by scripts/setup.py (junctions don't survive clones)
+.claude/skills/
+
+# Ableton
+*.als.bak
+Backup/
+Ableton Project Info/
+*.asd
+
+# Audio renders and samples stay out of git
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local-only overrides
+*.local.json
+.env
