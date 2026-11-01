@@ -11,7 +11,7 @@ agent (Claude Code / Cursor / Codex)
 
 ## Requirements
 
-- Ableton Live 12 (this PC: **12.4.6 Lite**, Windows 11)
+- Ableton Live 12 (this PC: **12.4.7 Lite**, Windows 11)
 - [uv](https://docs.astral.sh/uv/) (this PC: 0.12.10; Python 3.14.7)
 
 ## Install
@@ -52,6 +52,13 @@ No global Ableton MCP config should exist (`~/.claude.json`, Claude Desktop,
 `~/.cursor/mcp.json`, `~/.codex/config.toml`) — doctor warns if one does. The
 old global `AbletonMCP` (ahujasid) entries were removed on 2026-11-01, and the
 old Remote Script was backed up as `AbletonMCP\__init__.py.*.bak`.
+
+**Watch out:** the old `ableton-mcp` (ahujasid) server copies its own Remote
+Script over this one every time it starts. The Claude desktop app rewrote its
+cached `AbletonMCP` entry back into `claude_desktop_config.json` once after
+removal. If doctor warns about a global config, remove it in Claude →
+Settings → Developer, then rerun doctor and check "Remote Script installed and
+matches server".
 
 ## Health check
 
